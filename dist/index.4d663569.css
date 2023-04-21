@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+header {
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  display: flex;
+}
+
+h1 {
+  font-family: Major Mono Display, monospace;
+}
+
+.headerImage {
+  width: 100%;
+}
+
+.country {
+  border-style: none;
+}
+
+img {
+  width: 50px;
+}
+
+main {
+  padding: 20px;
+}
+
+ul {
+  height: 4000px;
+  min-width: 0;
+  background-color: #fafafa;
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-radius: 5px;
+  flex-flow: column wrap;
+  list-style-type: none;
+  display: flex;
+  box-shadow: 0 13px 27px -5px #32325d40, 0 8px 16px -8px #0000004d;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.country-name {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+
+.africa .country-name {
+  color: #00f;
+}
+
+.americas .country-name {
+  color: green;
+}
+
+.asia .country-name {
+  color: red;
+}
+
+.europe .country-name {
+  color: orange;
+}
+
+.oceania .country-name {
+  color: purple;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
