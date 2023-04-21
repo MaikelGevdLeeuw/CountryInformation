@@ -1,0 +1,1 @@
+{"mappings":"AAAA,QAAQ,GAAG,CAAC;AAGZ,eAAe,iBAAgB;IAC3B,MAAM,WAAW,MAAM,MAAM,GAAG;AACpC","sources":["src/app.js"],"sourcesContent":["console.log('Hallo daar!');\r\n\r\n\r\nasync function fetchCountries(){\r\n    const response = await axios.get()\r\n}"],"names":[],"version":3,"file":"index.816e7b21.js.map","sourceRoot":"/__parcel_source_root/"}
